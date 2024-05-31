@@ -2,4 +2,3 @@
 
  - Creation of HTML and CSS.
  - Creation with colors.
-- Format with JavaScript
