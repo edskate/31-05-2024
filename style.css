@@ -1,8 +1,4 @@
-body{
-    width: 0px;
-    height: 0px;
-    background-color: crimson;
-}
+
 h1{
     margin: 50px;
     width: 200px;
@@ -13,4 +9,31 @@ p{
     text-shadow: 10px 10px 10px #000;
     margin: 50px;
     width: 300px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Permant+MarKer&display=Swap');
+
+
+
+body{
+    background-color: rgb(104, 43, 36);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    color: aliceblue;
+    align-items: center;
+    text-shadow: -1px 1px 1px #000;
+    font-family: 'Permanent Marker', cursive;
+}
+.container{
+    box-shadow:  10px 10px 10px #000;
+    border: 2px solid #059ca7;
+    border-radius: 10px 10px 10px;
+    width: 400px;
+    text-align: center;
+}
+h1{
+    color: rgb(94, 205, 233);
 }
